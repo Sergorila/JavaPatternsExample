@@ -7,7 +7,7 @@ public class FazzBearPizzeria {
     }
 
     public FazzBearPizza orderPizza(PizzaType type) {
-        FazzBearPizza pizza = pizzaFactory.createCoffee(type);
+        FazzBearPizza pizza = pizzaFactory.createPizza(type);
         pizza.prepareIngredients();
         pizza.makePizza();
         pizza.givePizza();

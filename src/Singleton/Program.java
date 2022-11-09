@@ -35,7 +35,6 @@ public class Program {
     }
 
     public static void main(String[] args) {
-        // implement step #5 here - реализуйте задание №5 тут
         readKeyFromConsoleAndInitPlanet();
         System.out.println(thePlanet.getClass());
     }

@@ -1,7 +1,7 @@
 package Factory;
 
 public class PizzaFactory {
-    public FazzBearPizza createCoffee (PizzaType type) {
+    public FazzBearPizza createPizza (PizzaType type) {
         FazzBearPizza pizza = null;
 
         switch (type) {
