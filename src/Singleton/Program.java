@@ -21,7 +21,7 @@ public class Program {
 
     private static void readKeyFromConsoleAndInitPlanet() {
         Scanner in = new Scanner(System.in);
-        String x = in.nextLine();
+        String x = in.next();
         if (x.equals(Planet.SUN))
         {
             thePlanet = (Planet) Sun.getInstance();
@@ -35,7 +35,7 @@ public class Program {
     }
 
     public static void main(String[] args) {
-        readKeyFromConsoleAndInitPlanet();
+
         System.out.println(thePlanet.getClass());
     }
 
